@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E832A81B67A8F30020DE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E832A71B67A8F30020DE93 /* AppDelegate.swift */; };
+		71E832AD1B67A8F30020DE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E832AB1B67A8F30020DE93 /* Main.storyboard */; };
+		71E832AF1B67A8F30020DE93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E832AE1B67A8F30020DE93 /* Images.xcassets */; };
+		71E832B21B67A8F30020DE93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E832B01B67A8F30020DE93 /* LaunchScreen.xib */; };
+		71E832C91B67A9850020DE93 /* CoreRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E832C71B67A93E0020DE93 /* CoreRing.framework */; };
+		71E832CA1B67A9850020DE93 /* CoreRing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71E832C71B67A93E0020DE93 /* CoreRing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71E832D11B67AAE40020DE93 /* ring.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 71E832D01B67AAE40020DE93 /* ring.pdf */; };
+		71E832D31B67ACD30020DE93 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E832D21B67ACD30020DE93 /* PDFView.swift */; };
+		71E832D51B67ACE40020DE93 /* PDFPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E832D41B67ACE40020DE93 /* PDFPageView.swift */; };
+		723220591B8AE7AF00F69DB8 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723220581B8AE7AF00F69DB8 /* BattleViewController.swift */; };
+		E535C7562C3C134650D94675 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E32008EA63530EAB91F42A7 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71E832CB1B67A9850020DE93 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				71E832CA1B67A9850020DE93 /* CoreRing.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37AE0E314722F209B45E146F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5E32008EA63530EAB91F42A7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E832A21B67A8F30020DE93 /* Ringer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ringer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E832A61B67A8F30020DE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E832A71B67A8F30020DE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E832AC1B67A8F30020DE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E832AE1B67A8F30020DE93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71E832B11B67A8F30020DE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71E832C71B67A93E0020DE93 /* CoreRing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreRing.framework; path = ../CoreRing.framework; sourceTree = "<group>"; };
+		71E832CC1B67A9B70020DE93 /* Ringer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ringer-Bridging-Header.h"; sourceTree = "<group>"; };
+		71E832D01B67AAE40020DE93 /* ring.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ring.pdf; sourceTree = "<group>"; };
+		71E832D21B67ACD30020DE93 /* PDFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		71E832D41B67ACE40020DE93 /* PDFPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageView.swift; sourceTree = "<group>"; };
+		723220561B8AE76E00F69DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723220571B8AE76E00F69DB8 /* RingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingerTests.swift; sourceTree = "<group>"; };
+		723220581B8AE7AF00F69DB8 /* BattleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		FEA2DBEA95447CB4E1185931 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E8329F1B67A8F30020DE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E832C91B67A9850020DE93 /* CoreRing.framework in Frameworks */,
+				E535C7562C3C134650D94675 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E832991B67A8F30020DE93 = {
+			isa = PBXGroup;
+			children = (
+				71E832C71B67A93E0020DE93 /* CoreRing.framework */,
+				71E832A41B67A8F30020DE93 /* Ringer */,
+				723220551B8AE76E00F69DB8 /* RingerTests */,
+				71E832A31B67A8F30020DE93 /* Products */,
+				9921B0FF604A83D2F8E4BF05 /* Pods */,
+				91E628DE31DC44FEC3182F7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71E832A31B67A8F30020DE93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E832A21B67A8F30020DE93 /* Ringer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E832A41B67A8F30020DE93 /* Ringer */ = {
+			isa = PBXGroup;
+			children = (
+				71E832D01B67AAE40020DE93 /* ring.pdf */,
+				71E832CC1B67A9B70020DE93 /* Ringer-Bridging-Header.h */,
+				71E832A71B67A8F30020DE93 /* AppDelegate.swift */,
+				723220581B8AE7AF00F69DB8 /* BattleViewController.swift */,
+				71E832AB1B67A8F30020DE93 /* Main.storyboard */,
+				71E832AE1B67A8F30020DE93 /* Images.xcassets */,
+				71E832B01B67A8F30020DE93 /* LaunchScreen.xib */,
+				71E832A51B67A8F30020DE93 /* Supporting Files */,
+				71E832D21B67ACD30020DE93 /* PDFView.swift */,
+				71E832D41B67ACE40020DE93 /* PDFPageView.swift */,
+			);
+			path = Ringer;
+			sourceTree = "<group>";
+		};
+		71E832A51B67A8F30020DE93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E832A61B67A8F30020DE93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		723220551B8AE76E00F69DB8 /* RingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				723220561B8AE76E00F69DB8 /* Info.plist */,
+				723220571B8AE76E00F69DB8 /* RingerTests.swift */,
+			);
+			path = RingerTests;
+			sourceTree = "<group>";
+		};
+		91E628DE31DC44FEC3182F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E32008EA63530EAB91F42A7 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9921B0FF604A83D2F8E4BF05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEA2DBEA95447CB4E1185931 /* Pods.debug.xcconfig */,
+				37AE0E314722F209B45E146F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E832A11B67A8F30020DE93 /* Ringer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E832C11B67A8F30020DE93 /* Build configuration list for PBXNativeTarget "Ringer" */;
+			buildPhases = (
+				C26D5E596DB4EEE4252331CF /* Check Pods Manifest.lock */,
+				71E8329E1B67A8F30020DE93 /* Sources */,
+				71E8329F1B67A8F30020DE93 /* Frameworks */,
+				71E832A01B67A8F30020DE93 /* Resources */,
+				71E832CB1B67A9850020DE93 /* Embed Frameworks */,
+				1DB4A2BEA7A65993EC084AC7 /* Embed Pods Frameworks */,
+				EEA53107B692121C87A14841 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ringer;
+			productName = PresentationSwift;
+			productReference = 71E832A21B67A8F30020DE93 /* Ringer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E8329A1B67A8F30020DE93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Logbar Inc.";
+				TargetAttributes = {
+					71E832A11B67A8F30020DE93 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3J3982V743;
+					};
+				};
+			};
+			buildConfigurationList = 71E8329D1B67A8F30020DE93 /* Build configuration list for PBXProject "Ringer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E832991B67A8F30020DE93;
+			productRefGroup = 71E832A31B67A8F30020DE93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E832A11B67A8F30020DE93 /* Ringer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E832A01B67A8F30020DE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E832D11B67AAE40020DE93 /* ring.pdf in Resources */,
+				71E832AD1B67A8F30020DE93 /* Main.storyboard in Resources */,
+				71E832B21B67A8F30020DE93 /* LaunchScreen.xib in Resources */,
+				71E832AF1B67A8F30020DE93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DB4A2BEA7A65993EC084AC7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26D5E596DB4EEE4252331CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA53107B692121C87A14841 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E8329E1B67A8F30020DE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723220591B8AE7AF00F69DB8 /* BattleViewController.swift in Sources */,
+				71E832D31B67ACD30020DE93 /* PDFView.swift in Sources */,
+				71E832D51B67ACE40020DE93 /* PDFPageView.swift in Sources */,
+				71E832A81B67A8F30020DE93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71E832AB1B67A8F30020DE93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E832AC1B67A8F30020DE93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E832B01B67A8F30020DE93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E832B11B67A8F30020DE93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E832BF1B67A8F30020DE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71E832C01B67A8F30020DE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E832C21B67A8F30020DE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA2DBEA95447CB4E1185931 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: HIKARU TAKEMURA (GVX95BM9EG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: HIKARU TAKEMURA (GVX95BM9EG)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../",
+				);
+				INFOPLIST_FILE = Ringer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Ringer;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ringer/Ringer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71E832C31B67A8F30020DE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AE0E314722F209B45E146F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: HIKARU TAKEMURA (GVX95BM9EG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: HIKARU TAKEMURA (GVX95BM9EG)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../",
+				);
+				INFOPLIST_FILE = Ringer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Ringer;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ringer/Ringer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E8329D1B67A8F30020DE93 /* Build configuration list for PBXProject "Ringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E832BF1B67A8F30020DE93 /* Debug */,
+				71E832C01B67A8F30020DE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E832C11B67A8F30020DE93 /* Build configuration list for PBXNativeTarget "Ringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E832C21B67A8F30020DE93 /* Debug */,
+				71E832C31B67A8F30020DE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E8329A1B67A8F30020DE93 /* Project object */;
+}
